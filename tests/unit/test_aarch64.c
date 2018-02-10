@@ -131,9 +131,9 @@ void test_stp(void **state)
     }
 
     uc_mem_read(uc, stack_addr, (uint8_t *)&x, 8);
-    printf("1: %016llx", x);
+    printf("1: %016" PRIu64, x);
     uc_mem_read(uc, stack_addr + 8, (uint8_t *)&x, 8);
-    printf("2: %016llx", x);
+    printf("2: %016" PRIu64, x);
 }
 
 int main(int argc, const char * argv[]) {
