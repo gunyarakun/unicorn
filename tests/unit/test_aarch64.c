@@ -95,7 +95,7 @@ void test_hang(void **state)
 void test_stp(void **state)
 {
     uint32_t code[] = {
-        0xe61f00ad, /* STP Q6, Q6, [SP] */
+        0xad001fe6, /* STP Q6, Q6, [SP] */
         0x6db923e9, /* STP D9, D8, [SP, #-112]! */
     };
 
