@@ -53,6 +53,6 @@ test: all
 	${EXECUTE_VARS} ./test_hookcounts
 	echo "skipping test_tb_x86"
 	echo "skipping test_x86_soft_paging"
-	echo "skipping test_hang"
+	echo "skipping test_aarch64"
 	echo "skipping test_x86_sh1_enter_leave"
 	echo "skipping test_x86_rip_bug"
